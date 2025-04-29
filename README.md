@@ -1,18 +1,59 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+# SmartTv
 
-The workspace contains two folders by default, where:
+Nesse pequeno projeto desenvolvido para a pratica de atividades praticas em Java para melhorar minhas habilidades de aprendizados em java pela DIO. 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## metodos ultilizados 
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+`Ligar smartTv` `Desligar smartTv`: Para Ligar/ Desligar a TV. 
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+ `aumentarVolume` `diminuirVolume`: Para ajustar o volume.
 
-## Dependency Management
+ `mudarCanal` : para mudar de canal 
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Onde o desenvolvimento dos estudos acima levarão o metodos de um sistema simples de SmartTv. 
+
+
+
+## Funcionalidades
+
+- Ligar/Desligar.  
+- aumentarVolume/diminuirVolume.
+- mudar de canal 
+
+## Variáveis de Ambiente
+
+Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de ambiente no seu Compilador. 
+
+` public class Usuario {
+    public static void main(String[] args) throws Exception {
+        SmartTv smartTv = new SmartTv();
+
+        System.out.println("TV ligada ? " + smartTv.ligada);
+        System.out.println("Canal Atual ? : " + smartTv.canal);
+        System.out.println("Volume atual ? : " + smartTv.volume);
+    
+        smartTv.Ligar (); 
+        System.out.println("Novo status -> TV ligada? " + smartTv.ligada);
+        smartTv.desligar();
+        System.out.println("Novo status -> TV ligada? " + smartTv.ligada);
+
+        smartTv.diminuirVolume();
+        smartTv.diminuirVolume();
+        smartTv.diminuirVolume();
+        smartTv.aumentarVolume();
+
+        System.out.println("Volume Atual : " + smartTv.volume);
+
+        smartTv.mudarCanal(13);
+        System.out.println("Canal Atual ? : " + smartTv.canal);
+
+    }
+}`
+
+
+## Autores
+
+- [@Ivana-Gomes](https://www.github.com/Ivana-Gomes)
+
