@@ -2,7 +2,7 @@
 
 # SmartTv
 
-Nesse pequeno projeto desenvolvido para a pratica de atividades praticas em Java para melhorar minhas habilidades de aprendizados em java pela DIO. 
+Nesse pequeno projeto desenvolvido para a pratica de atividades em Java para melhorar minhas habilidades de aprendizados em java pela DIO. 
 
 ## metodos ultilizados 
 
